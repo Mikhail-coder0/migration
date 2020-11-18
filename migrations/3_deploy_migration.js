@@ -33,7 +33,7 @@ module.exports = async function (deployer, network, accounts) {
 
     // Accept admin from governance
     console.log("accepting admin for timelock...")
-    await governance.__acceptAdmin();
+    await governance.__acceptAdmin({ from: accounts[0] });
     console.log("Successfully accepted governance as new admin for timelock !!\n");
 
     // Set Timelock to be admin for zoracles token

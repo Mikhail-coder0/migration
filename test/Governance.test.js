@@ -28,8 +28,11 @@ contract('Governor', ([alice, minter, dev]) => {
         await this.zora.delegate(minter, { from: minter });
 
         // Transfer ownership to timelock contract
-        this.timelock = await Timelock.new(alice, time.duration.days(2), { from: alice });
-        this.gov = await GovernorAlpha.new(this.timelock.address, this.zora.address, alice, { from: alice });
+        this.timelock = await Timelock.new({ from: alice });
+        await this.timelock.initialize(alice, time.duration.days(2));
+
+        this.gov = await GovernorAlpha.new({ from: alice });
+        await this.gov.initialize(this.timelock.address, this.zora.address, alice);
 
         await this.timelock.setPendingAdmin(this.gov.address, { from: alice });
         await this.gov.__acceptAdmin({ from: alice });

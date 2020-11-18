@@ -12,7 +12,8 @@ contract('Timelock', ([alice, bob, carol]) => {
     beforeEach(async () => {
         this.zora = await Zoracles.new({ from: alice });
         await this.zora.initialize();
-        this.timelock = await Timelock.new(bob, '259200', { from: alice });
+        this.timelock = await Timelock.new({ from: alice });
+        await this.timelock.initialize(bob, '259200');
     });
 
     it('should not allow non-owner to do operation', async () => {

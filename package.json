@@ -6,7 +6,7 @@
   "scripts": {
     "compile": "truffle compile",
     "test": "truffle test",
-    "deploy": "truffle migrate -f 1 --to 1 --network"
+    "deploy": "truffle migrate -f 1 --to 3 --network"
   },
   "author": "",
   "license": "ISC",

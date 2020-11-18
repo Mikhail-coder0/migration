@@ -1,4 +1,4 @@
-// SPDX-License-Identifier: NO_LICENSE
+// SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
 // Which is copied and modified from COMPOUND:

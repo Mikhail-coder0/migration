@@ -1,9 +1,10 @@
-// SPDX-License-Identifier: NO_LICENSE
+// SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 
 import "@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol";
 
-contract Timelock {
+contract Timelock is Initializable {
     using SafeMathUpgradeable for uint256;
 
     event NewAdmin(address indexed newAdmin);
@@ -45,18 +46,18 @@ contract Timelock {
 
     mapping(bytes32 => bool) public queuedTransactions;
 
-    constructor(address admin_, uint256 delay_) public {
+    function initialize(address _admin, uint256 _delay) public initializer {
         require(
-            delay_ >= MINIMUM_DELAY,
+            _delay >= MINIMUM_DELAY,
             "Timelock::constructor: Delay must exceed minimum delay."
         );
         require(
-            delay_ <= MAXIMUM_DELAY,
+            _delay <= MAXIMUM_DELAY,
             "Timelock::constructor: Delay must not exceed maximum delay."
         );
 
-        admin = admin_;
-        delay = delay_;
+        admin = _admin;
+        delay = _delay;
         admin_initialized = false;
     }
 

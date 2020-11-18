@@ -1,10 +1,11 @@
-// SPDX-License-Identifier: NO_LICENSE
+// SPDX-License-Identifier: MIT
 pragma solidity 0.6.12;
 pragma experimental ABIEncoderV2;
 
 import "./Zoracles.sol";
+import "@openzeppelin/contracts-upgradeable/proxy/Initializable.sol";
 
-contract GovernorAlpha {
+contract GovernorAlpha is Initializable {
     /// @notice The name of this contract
     string public constant name = "Zoracles Governor Alpha";
 
@@ -145,11 +146,11 @@ contract GovernorAlpha {
     /// @notice An event emitted when a proposal has been executed in the Timelock
     event ProposalExecuted(uint256 id);
 
-    constructor(
+    function initialize(
         address _timelock,
         address _zora,
         address _guardian
-    ) public {
+    ) public initializer {
         timelock = TimelockInterface(_timelock);
         zora = Zoracles(_zora);
         guardian = _guardian;

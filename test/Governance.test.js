@@ -47,7 +47,9 @@ contract('Governor', ([alice, minter, dev]) => {
 
         await expectRevert(
             this.gov.propose(
-                [this.zora.address], ['0'], ['mint(address,uint256)'],
+                [this.zora.address],
+                ['0'],
+                ['mint(address,uint256)'],
                 [encodeParameters(['address', 'uint256'], [alice, 100])],
                 'Mint Token',
                 { from: minter },
@@ -56,7 +58,9 @@ contract('Governor', ([alice, minter, dev]) => {
         );
 
         await this.gov.propose(
-            [this.zora.address], ['0'], ['mint(address,uint256)'],
+            [this.zora.address],
+            ['0'],
+            ['mint(address,uint256)'],
             [encodeParameters(['address', 'uint256'], [alice, 100])],
             'Mint Token',
             { from: dev },

@@ -416,7 +416,7 @@ contract GovernorAlpha is Initializable {
         Proposal storage proposal = proposals[proposalId];
         Receipt storage receipt = proposal.receipts[voter];
         require(
-            receipt.hasVoted == false,
+            !receipt.hasVoted,
             "GovernorAlpha::_castVote: voter already voted"
         );
         uint256 votes = zora.getPriorVotes(voter, proposal.startBlock);

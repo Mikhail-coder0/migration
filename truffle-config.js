@@ -51,6 +51,13 @@ module.exports = {
             timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
             skipDryRun: false     // Skip dry run before migrations? (default: false for public nets )
         },
+        mainnet: {
+            provider: () => providerFactory("mainnet"),
+            network_id: 1,       // Mainnet's id
+            gas: 8000000,        // Mainnet has a high block limit
+            timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
+            skipDryRun: false     // Skip dry run before migrations? (default: false for public nets )
+        },
     },
 
     // Set default mocha options here, use special reporters etc.

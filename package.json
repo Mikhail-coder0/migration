@@ -6,7 +6,10 @@
   "scripts": {
     "compile": "truffle compile",
     "test": "truffle test",
-    "deploy": "truffle compile --all && truffle migrate -f 1 --to 3 --network"
+    "deploy": "truffle compile --all && truffle migrate -f 1 --to 3 --network",
+    "deploy:token": "truffle compile --all && truffle migrate -f 1 --to 1 --network",
+    "deploy:timelock": "truffle compile --all && truffle migrate -f 2 --to 2 --network",
+    "deploy:governance": "truffle compile --all && truffle migrate -f 3 --to 3 --network"
   },
   "author": "",
   "license": "ISC",

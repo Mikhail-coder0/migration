@@ -34,11 +34,11 @@ contract GovernorAlpha is Initializable {
         return 28800;
     } // ~5 days in blocks (assuming 15s blocks)
 
-    /// @notice The address of the Compound Protocol Timelock
+    /// @notice The address of the Zoracle Timelock
     TimelockInterface public timelock;
 
-    /// @notice The address of the Compound governance token
-    // XXX: CompInterface public comp;
+    /// @notice The address of the Zoracle governance token
+    // XXX: ZoracleInterface public zora;
     Zoracles public zora;
 
     /// @notice The address of the Governor Guardian

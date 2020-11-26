@@ -291,7 +291,7 @@
     },
     "16466a9545047c908f8c8f11938b4685c7b569f5d4a85049dbcbce15db6646a6": {
       "address": "0x51b52ABb0876D784f8139cf571a8EA23cCc5c951",
-      "txHash": "0x371a00dea60fc8ac0fd2d254bffbbfc2906a4bdb7b99d5dc26a17d48a6fbc62f",
+      "txHash": "0x1fe7aa2e8e0f6c0054443c9c67e96d06c21683e6165c7d7cb3a474a8bc06ead3",
       "layout": {
         "storage": [
           {
@@ -371,6 +371,6 @@
   },
   "admin": {
     "address": "0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3",
-    "txHash": "0x88697a2af91b2187d570825e2fcecb6f7f6947d2e72bc1cf54ae47159a0c5d19"
+    "txHash": "0x684c884588455408d02e2db20dcfbd4e4e26d0381a97a8a2ecf1552e7ffb1a25"
   }
 }

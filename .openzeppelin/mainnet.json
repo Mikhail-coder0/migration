@@ -209,6 +209,85 @@
           }
         }
       }
+    },
+    "16466a9545047c908f8c8f11938b4685c7b569f5d4a85049dbcbce15db6646a6": {
+      "address": "0x51b52ABb0876D784f8139cf571a8EA23cCc5c951",
+      "txHash": "0x50ffe9828b69dd690c69df029920138b451b4b4606fba3c8629cd1ddf7dbae91",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:23"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:28"
+          },
+          {
+            "contract": "GovernorAlpha",
+            "label": "timelock",
+            "type": "t_contract(TimelockInterface)1288",
+            "src": "Governance.sol:38"
+          },
+          {
+            "contract": "GovernorAlpha",
+            "label": "zora",
+            "type": "t_contract(Zoracles)2501",
+            "src": "Governance.sol:42"
+          },
+          {
+            "contract": "GovernorAlpha",
+            "label": "guardian",
+            "type": "t_address",
+            "src": "Governance.sol:45"
+          },
+          {
+            "contract": "GovernorAlpha",
+            "label": "proposalCount",
+            "type": "t_uint256",
+            "src": "Governance.sol:48"
+          },
+          {
+            "contract": "GovernorAlpha",
+            "label": "proposals",
+            "type": "t_mapping(t_uint256,t_struct(Proposal)124_storage)",
+            "src": "Governance.sol:104"
+          },
+          {
+            "contract": "GovernorAlpha",
+            "label": "latestProposalIds",
+            "type": "t_mapping(t_address,t_uint256)",
+            "src": "Governance.sol:107"
+          }
+        ],
+        "types": {
+          "t_contract(TimelockInterface)1288": {
+            "label": "contract TimelockInterface"
+          },
+          "t_contract(Zoracles)2501": {
+            "label": "contract Zoracles"
+          },
+          "t_address": {
+            "label": "address"
+          },
+          "t_uint256": {
+            "label": "uint256"
+          },
+          "t_mapping(t_uint256,t_struct(Proposal)124_storage)": {
+            "label": "mapping(uint256 => struct GovernorAlpha.Proposal)"
+          },
+          "t_mapping(t_address,t_uint256)": {
+            "label": "mapping(address => uint256)"
+          },
+          "t_bool": {
+            "label": "bool"
+          }
+        }
+      }
     }
   },
   "admin": {

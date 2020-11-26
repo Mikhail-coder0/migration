@@ -2,9 +2,9 @@
 
 ### Mainnet:
 
-1. **Zoracle Token**: [0x5f994DD72D2Dd56E8F4895b244AB5Ec21C2893ed](https://etherscan.io/address/0x5f994DD72D2Dd56E8F4895b244AB5Ec21C2893ed)<br/>
-2. **Governance**: [0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28](https://etherscan.io/address/0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28)<br/>
-3. **Timelock**: [0x700FdFd395410826aC4e8f8f83534410fC1eC0F8](https://etherscan.io/address/0x700FdFd395410826aC4e8f8f83534410fC1eC0F8)<br/>
+1. **Zoracle Token**: [0xD8E3FB3b08eBA982F2754988d70D57eDc0055ae6](https://etherscan.io/address/0xD8E3FB3b08eBA982F2754988d70D57eDc0055ae6)<br/>
+2. **Governance**: [0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3](https://etherscan.io/address/0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3)<br/>
+3. **Timelock**: [0x1e3c7B78d1c50Eb08e1bf85622b3e1611aeA9C51](https://etherscan.io/address/0x1e3c7B78d1c50Eb08e1bf85622b3e1611aeA9C51)<br/>
 
 ### Testnet (Ropsten):
 

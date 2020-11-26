@@ -3,7 +3,7 @@
   "impls": {
     "23613ccea5ee63a0655647191b015affcfbd9694ea1783d51a1c53866b707700": {
       "address": "0x2DcDC6b5a057130e1c68463EeB3Dd8A586bCae77",
-      "txHash": "0x5a0449db121b535d9aad2a2be01defcadd82b18f74b87fd775b454015f7a18d8",
+      "txHash": "0x58888cf4f9350bd2f8b7874d53ab26244ec930125ba42313c8b2ba7684a5875c",
       "layout": {
         "storage": [
           {
@@ -148,7 +148,7 @@
     },
     "4bbae1383895e3fa466218a104f2083ddc908c9cf31188b6c286b067e5f4afc0": {
       "address": "0x7c6E017007c0923c8D00147b3011DF75eeb80E0b",
-      "txHash": "0xbd5e4f9786438fb47a23cb7a7b694aa4c7f97da8a4760353b24fecdd341d09d5",
+      "txHash": "0xc2edd8465f9a547bc3ed8665f58b564a8354aac6eaffcf0f52cdbba67ea1e239",
       "layout": {
         "storage": [
           {
@@ -209,168 +209,10 @@
           }
         }
       }
-    },
-    "e96539b4b836dbfa018e76dad234871691d1a860ccd0429869d11a08a7e40932": {
-      "address": "0x9FBDa871d559710256a2502A2517b794B482Db40",
-      "txHash": "0x6daf2891192615e2d3ac184f3b8acb8124706c02afdcb3f3d4b38d6b1a06595c",
-      "layout": {
-        "storage": [
-          {
-            "contract": "Initializable",
-            "label": "_initialized",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:23"
-          },
-          {
-            "contract": "Initializable",
-            "label": "_initializing",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:28"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "timelock",
-            "type": "t_contract(TimelockInterface)1289",
-            "src": "Governance.sol:38"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "zora",
-            "type": "t_contract(Zoracles)2502",
-            "src": "Governance.sol:42"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "guardian",
-            "type": "t_address",
-            "src": "Governance.sol:45"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "proposalCount",
-            "type": "t_uint256",
-            "src": "Governance.sol:48"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "proposals",
-            "type": "t_mapping(t_uint256,t_struct(Proposal)124_storage)",
-            "src": "Governance.sol:104"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "latestProposalIds",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "Governance.sol:107"
-          }
-        ],
-        "types": {
-          "t_contract(TimelockInterface)1289": {
-            "label": "contract TimelockInterface"
-          },
-          "t_contract(Zoracles)2502": {
-            "label": "contract Zoracles"
-          },
-          "t_address": {
-            "label": "address"
-          },
-          "t_uint256": {
-            "label": "uint256"
-          },
-          "t_mapping(t_uint256,t_struct(Proposal)124_storage)": {
-            "label": "mapping(uint256 => struct GovernorAlpha.Proposal)"
-          },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
-          },
-          "t_bool": {
-            "label": "bool"
-          }
-        }
-      }
-    },
-    "16466a9545047c908f8c8f11938b4685c7b569f5d4a85049dbcbce15db6646a6": {
-      "address": "0x51b52ABb0876D784f8139cf571a8EA23cCc5c951",
-      "txHash": "0x371a00dea60fc8ac0fd2d254bffbbfc2906a4bdb7b99d5dc26a17d48a6fbc62f",
-      "layout": {
-        "storage": [
-          {
-            "contract": "Initializable",
-            "label": "_initialized",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:23"
-          },
-          {
-            "contract": "Initializable",
-            "label": "_initializing",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:28"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "timelock",
-            "type": "t_contract(TimelockInterface)1288",
-            "src": "Governance.sol:38"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "zora",
-            "type": "t_contract(Zoracles)2501",
-            "src": "Governance.sol:42"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "guardian",
-            "type": "t_address",
-            "src": "Governance.sol:45"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "proposalCount",
-            "type": "t_uint256",
-            "src": "Governance.sol:48"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "proposals",
-            "type": "t_mapping(t_uint256,t_struct(Proposal)124_storage)",
-            "src": "Governance.sol:104"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "latestProposalIds",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "Governance.sol:107"
-          }
-        ],
-        "types": {
-          "t_contract(TimelockInterface)1288": {
-            "label": "contract TimelockInterface"
-          },
-          "t_contract(Zoracles)2501": {
-            "label": "contract Zoracles"
-          },
-          "t_address": {
-            "label": "address"
-          },
-          "t_uint256": {
-            "label": "uint256"
-          },
-          "t_mapping(t_uint256,t_struct(Proposal)124_storage)": {
-            "label": "mapping(uint256 => struct GovernorAlpha.Proposal)"
-          },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
-          },
-          "t_bool": {
-            "label": "bool"
-          }
-        }
-      }
     }
   },
   "admin": {
-    "address": "0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3",
-    "txHash": "0x88697a2af91b2187d570825e2fcecb6f7f6947d2e72bc1cf54ae47159a0c5d19"
+    "address": "0x0742190Ede5F556Fa10202433C3aC07Ff8d1e25B",
+    "txHash": "0xc1f72bd20b278510b7665b5d3aeeafed846f1120a89636daa51b61b66da28018"
   }
 }

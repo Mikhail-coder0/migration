@@ -55,10 +55,10 @@ module.exports = {
         mainnet: {
             provider: () => providerFactory("mainnet"),
             network_id: 1,       // Mainnet's id
-            gas: 9000000,        // Mainnet has a high block limit
+            gas: 7000000,        // Mainnet has a high block limit
             timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
             skipDryRun: false,     // Skip dry run before migrations? (default: false for public nets )
-            gasPrice: 300000000000 // Gas price
+            gasPrice: 200000000000 // Gas price
         },
     },
 

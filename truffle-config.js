@@ -49,14 +49,16 @@ module.exports = {
             network_id: 3,       // Ropsten's id
             gas: 5500000,        // Ropsten has a lower block limit than mainnet
             timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
-            skipDryRun: false     // Skip dry run before migrations? (default: false for public nets )
+            skipDryRun: false,     // Skip dry run before migrations? (default: false for public nets )
+            gasPrice: 100000000000, // Gas price
         },
         mainnet: {
             provider: () => providerFactory("mainnet"),
             network_id: 1,       // Mainnet's id
-            gas: 8000000,        // Mainnet has a high block limit
+            gas: 9000000,        // Mainnet has a high block limit
             timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
-            skipDryRun: false     // Skip dry run before migrations? (default: false for public nets )
+            skipDryRun: false,     // Skip dry run before migrations? (default: false for public nets )
+            gasPrice: 300000000000 // Gas price
         },
     },
 

@@ -58,7 +58,7 @@ module.exports = {
             gas: 7000000,        // Mainnet has a high block limit
             timeoutBlocks: 200,  // # of blocks before a deployment times out  (minimum/default: 50)
             skipDryRun: false,     // Skip dry run before migrations? (default: false for public nets )
-            gasPrice: 200000000000 // Gas price
+            gasPrice: 100000000000 // Gas price (100 Gwei)
         },
     },
 

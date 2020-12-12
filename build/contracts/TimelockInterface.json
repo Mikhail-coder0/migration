@@ -165,16 +165,16 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"GRACE_PERIOD\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"acceptAdmin\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"signature\",\"type\":\"string\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"internalType\":\"uint256\",\"name\":\"eta\",\"type\":\"uint256\"}],\"name\":\"cancelTransaction\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"delay\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"signature\",\"type\":\"string\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"internalType\":\"uint256\",\"name\":\"eta\",\"type\":\"uint256\"}],\"name\":\"executeTransaction\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"signature\",\"type\":\"string\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"internalType\":\"uint256\",\"name\":\"eta\",\"type\":\"uint256\"}],\"name\":\"queueTransaction\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"hash\",\"type\":\"bytes32\"}],\"name\":\"queuedTransactions\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/Sheed/Desktop/Zora2/migration/contracts/Governance.sol\":\"TimelockInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/Sheed/Desktop/Zora2/migration/contracts/Governance.sol\":{\"keccak256\":\"0xd3822b570a34e9728c615b062344e6492c1aa60ac275e3d05878b2a1ab5116b4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bda54ec14f08583c922c70c00e01688e8f5a37348db109873136f1bae0b9acb5\",\"dweb:/ipfs/QmUFnL9PQzxbxkMyLLQw8pnwLUJLE4XkKspmFKRnVN7VZV\"]},\"/Users/Sheed/Desktop/Zora2/migration/contracts/Zoracles.sol\":{\"keccak256\":\"0xb5948608fffaffe9cfbcebbb6836548c4c4da8b19d0ba79904aa6c39600efd2e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ec0309e214ef367aa492a1bdc5ac45161a030cbfb9ccdfaf00cf2af3c3de3247\",\"dweb:/ipfs/QmRC8nkkxYCvpfwTSkS6RNQo3MgGQs2NTgUmMJKqxh655s\"]},\"@openzeppelin/contracts-upgradeable/GSN/ContextUpgradeable.sol\":{\"keccak256\":\"0xca5ef6ed50c212be4cffea0fd7974d659e92b1328906069f7a14e2cc1bedfbfe\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b1edd6602dadeb1c00d8bd54aa6cee379dae83846e5b613feefbc8cdcdae42b0\",\"dweb:/ipfs/QmbpZvED3aj3x7fr2pdUC5iDU6x5ehDxKQyj3pm2NegbhM\"]},\"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\":{\"keccak256\":\"0xf4ed481ddeacce3cd55a3c75ad114b8ee58ff4382bc0b09d6d8995c37888c565\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1701a76ba026b4bd4983cc035627835f97a9f0a592dcefeaa636a8b285347128\",\"dweb:/ipfs/QmVpnD2eqYDtogRWVPs4WWH8s9reE9o1vyLAX2UhKGvZey\"]},\"@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol\":{\"keccak256\":\"0x5ce1bdd7144d5fd5284ec2e7a008f95c8c56a384d29200a63a93f3a247c4cf3a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://54fd179f1133eb2e9514c5174952b38e70557266818832b12356febf2262fed2\",\"dweb:/ipfs/QmRKKg9o4EXa4i6kHXjmnh9zdpstYe2tXwe5TKBkCxdSav\"]},\"@openzeppelin/contracts-upgradeable/proxy/Initializable.sol\":{\"keccak256\":\"0x8eee8bd8c216a3e437bf7a4c9844348f47a2d990e5b06cd96d250e33ab04c25a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c6bb2af880b12be26b148ee99ac3a984168e7fc74721bab9cd44598a0669b038\",\"dweb:/ipfs/QmPfFDaXZbThJgaVim7nvxrw1RuD2xKWCG89K6pznmC8pJ\"]},\"@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol\":{\"keccak256\":\"0x60637982184c1694f85e4737974bcdb7e26a5b018426a8791814b96048703ace\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://605ce622c07882f7dd7441747a970b17cdbae722fc35ed78312f5e91dfab5437\",\"dweb:/ipfs/QmWkL2KAj7BcbgJDDD1gewC6t6p5u1WJwWoc7X1xRuWQsY\"]},\"@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol\":{\"keccak256\":\"0x8e01b60bb2de874e7690820fcd61adc3fa252c567de1c10c356e35fac7f49343\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3ac06b6ad4a4ed5ecadbde06ca2dcd4a8e7255f091e07d0709384bc29063633e\",\"dweb:/ipfs/QmSs1svJLbynhPgVdtgseW7W8WKWhEPcyg5UsW2BUY92Yc\"]},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"keccak256\":\"0x21d0ea14543f00187a5015b87993127dcf56d4ed40406f5a32a671a103209213\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0c8229a6611766c940789e0cb9a847398b9002a5ed557918ee8bfeb18ea36603\",\"dweb:/ipfs/QmfUbx4y6gjb9oj8V2qe9W5Eph31kimDdtpSGXa9po4u3L\"]}},\"version\":1}",
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"GRACE_PERIOD\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"acceptAdmin\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"signature\",\"type\":\"string\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"internalType\":\"uint256\",\"name\":\"eta\",\"type\":\"uint256\"}],\"name\":\"cancelTransaction\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[],\"name\":\"delay\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"signature\",\"type\":\"string\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"internalType\":\"uint256\",\"name\":\"eta\",\"type\":\"uint256\"}],\"name\":\"executeTransaction\",\"outputs\":[{\"internalType\":\"bytes\",\"name\":\"\",\"type\":\"bytes\"}],\"stateMutability\":\"payable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"address\",\"name\":\"target\",\"type\":\"address\"},{\"internalType\":\"uint256\",\"name\":\"value\",\"type\":\"uint256\"},{\"internalType\":\"string\",\"name\":\"signature\",\"type\":\"string\"},{\"internalType\":\"bytes\",\"name\":\"data\",\"type\":\"bytes\"},{\"internalType\":\"uint256\",\"name\":\"eta\",\"type\":\"uint256\"}],\"name\":\"queueTransaction\",\"outputs\":[{\"internalType\":\"bytes32\",\"name\":\"\",\"type\":\"bytes32\"}],\"stateMutability\":\"nonpayable\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"bytes32\",\"name\":\"hash\",\"type\":\"bytes32\"}],\"name\":\"queuedTransactions\",\"outputs\":[{\"internalType\":\"bool\",\"name\":\"\",\"type\":\"bool\"}],\"stateMutability\":\"view\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/prince/zoracle/zoracles/contracts/Governance.sol\":\"TimelockInterface\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/home/prince/zoracle/zoracles/contracts/Governance.sol\":{\"keccak256\":\"0xd3822b570a34e9728c615b062344e6492c1aa60ac275e3d05878b2a1ab5116b4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://bda54ec14f08583c922c70c00e01688e8f5a37348db109873136f1bae0b9acb5\",\"dweb:/ipfs/QmUFnL9PQzxbxkMyLLQw8pnwLUJLE4XkKspmFKRnVN7VZV\"]},\"/home/prince/zoracle/zoracles/contracts/Zoracles.sol\":{\"keccak256\":\"0xb5948608fffaffe9cfbcebbb6836548c4c4da8b19d0ba79904aa6c39600efd2e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://ec0309e214ef367aa492a1bdc5ac45161a030cbfb9ccdfaf00cf2af3c3de3247\",\"dweb:/ipfs/QmRC8nkkxYCvpfwTSkS6RNQo3MgGQs2NTgUmMJKqxh655s\"]},\"@openzeppelin/contracts-upgradeable/GSN/ContextUpgradeable.sol\":{\"keccak256\":\"0xca5ef6ed50c212be4cffea0fd7974d659e92b1328906069f7a14e2cc1bedfbfe\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://b1edd6602dadeb1c00d8bd54aa6cee379dae83846e5b613feefbc8cdcdae42b0\",\"dweb:/ipfs/QmbpZvED3aj3x7fr2pdUC5iDU6x5ehDxKQyj3pm2NegbhM\"]},\"@openzeppelin/contracts-upgradeable/access/OwnableUpgradeable.sol\":{\"keccak256\":\"0xf4ed481ddeacce3cd55a3c75ad114b8ee58ff4382bc0b09d6d8995c37888c565\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://1701a76ba026b4bd4983cc035627835f97a9f0a592dcefeaa636a8b285347128\",\"dweb:/ipfs/QmVpnD2eqYDtogRWVPs4WWH8s9reE9o1vyLAX2UhKGvZey\"]},\"@openzeppelin/contracts-upgradeable/math/SafeMathUpgradeable.sol\":{\"keccak256\":\"0x5ce1bdd7144d5fd5284ec2e7a008f95c8c56a384d29200a63a93f3a247c4cf3a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://54fd179f1133eb2e9514c5174952b38e70557266818832b12356febf2262fed2\",\"dweb:/ipfs/QmRKKg9o4EXa4i6kHXjmnh9zdpstYe2tXwe5TKBkCxdSav\"]},\"@openzeppelin/contracts-upgradeable/proxy/Initializable.sol\":{\"keccak256\":\"0x8eee8bd8c216a3e437bf7a4c9844348f47a2d990e5b06cd96d250e33ab04c25a\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://c6bb2af880b12be26b148ee99ac3a984168e7fc74721bab9cd44598a0669b038\",\"dweb:/ipfs/QmPfFDaXZbThJgaVim7nvxrw1RuD2xKWCG89K6pznmC8pJ\"]},\"@openzeppelin/contracts-upgradeable/token/ERC20/ERC20Upgradeable.sol\":{\"keccak256\":\"0x60637982184c1694f85e4737974bcdb7e26a5b018426a8791814b96048703ace\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://605ce622c07882f7dd7441747a970b17cdbae722fc35ed78312f5e91dfab5437\",\"dweb:/ipfs/QmWkL2KAj7BcbgJDDD1gewC6t6p5u1WJwWoc7X1xRuWQsY\"]},\"@openzeppelin/contracts-upgradeable/token/ERC20/IERC20Upgradeable.sol\":{\"keccak256\":\"0x8e01b60bb2de874e7690820fcd61adc3fa252c567de1c10c356e35fac7f49343\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3ac06b6ad4a4ed5ecadbde06ca2dcd4a8e7255f091e07d0709384bc29063633e\",\"dweb:/ipfs/QmSs1svJLbynhPgVdtgseW7W8WKWhEPcyg5UsW2BUY92Yc\"]},\"@openzeppelin/contracts-upgradeable/utils/AddressUpgradeable.sol\":{\"keccak256\":\"0x21d0ea14543f00187a5015b87993127dcf56d4ed40406f5a32a671a103209213\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://0c8229a6611766c940789e0cb9a847398b9002a5ed557918ee8bfeb18ea36603\",\"dweb:/ipfs/QmfUbx4y6gjb9oj8V2qe9W5Eph31kimDdtpSGXa9po4u3L\"]}},\"version\":1}",
   "bytecode": "0x",
   "deployedBytecode": "0x",
   "immutableReferences": {},
   "sourceMap": "",
   "deployedSourceMap": "",
   "source": "// SPDX-License-Identifier: MIT\npragma solidity 0.6.12;\npragma experimental ABIEncoderV2;\n\nimport \"./Zoracles.sol\";\nimport \"@openzeppelin/contracts-upgradeable/proxy/Initializable.sol\";\n\ncontract GovernorAlpha is Initializable {\n    /// @notice The name of this contract\n    string public constant name = \"Zoracles Governor Alpha\";\n\n    /// @notice The number of votes in support of a proposal required in order for a quorum to be reached and for a vote to succeed\n    function quorumVotes() public view returns (uint256) {\n        return zora.totalSupply() / 10;\n    } // 10% of Total Supply\n\n    /// @notice The number of votes required in order for a voter to become a proposer\n    function proposalThreshold() public view returns (uint256) {\n        return zora.totalSupply() / 100;\n    } // 1% of Total Supply\n\n    /// @notice The maximum number of actions that can be included in a proposal\n    function proposalMaxOperations() public pure returns (uint256) {\n        return 10;\n    } // 10 actions\n\n    /// @notice The delay before voting on a proposal may take place, once proposed\n    function votingDelay() public pure returns (uint256) {\n        return 1;\n    } // 1 block\n\n    /// @notice The duration of voting on a proposal, in blocks\n    function votingPeriod() public pure returns (uint256) {\n        return 28800;\n    } // ~5 days in blocks (assuming 15s blocks)\n\n    /// @notice The address of the Zoracle Timelock\n    TimelockInterface public timelock;\n\n    /// @notice The address of the Zoracle governance token\n    // XXX: ZoracleInterface public zora;\n    Zoracles public zora;\n\n    /// @notice The address of the Governor Guardian\n    address public guardian;\n\n    /// @notice The total number of proposals\n    uint256 public proposalCount;\n\n    struct Proposal {\n        /// @notice Unique id for looking up a proposal\n        uint256 id;\n        /// @notice Creator of the proposal\n        address proposer;\n        /// @notice The timestamp that the proposal will be available for execution, set once the vote succeeds\n        uint256 eta;\n        /// @notice the ordered list of target addresses for calls to be made\n        address[] targets;\n        /// @notice The ordered list of values (i.e. msg.value) to be passed to the calls to be made\n        uint256[] values;\n        /// @notice The ordered list of function signatures to be called\n        string[] signatures;\n        /// @notice The ordered list of calldata to be passed to each call\n        bytes[] calldatas;\n        /// @notice The block at which voting begins: holders must delegate their votes prior to this block\n        uint256 startBlock;\n        /// @notice The block at which voting ends: votes must be cast prior to this block\n        uint256 endBlock;\n        /// @notice Current number of votes in favor of this proposal\n        uint256 forVotes;\n        /// @notice Current number of votes in opposition to this proposal\n        uint256 againstVotes;\n        /// @notice Flag marking whether the proposal has been canceled\n        bool canceled;\n        /// @notice Flag marking whether the proposal has been executed\n        bool executed;\n        /// @notice Receipts of ballots for the entire set of voters\n        mapping(address => Receipt) receipts;\n    }\n\n    /// @notice Ballot receipt record for a voter\n    struct Receipt {\n        /// @notice Whether or not a vote has been cast\n        bool hasVoted;\n        /// @notice Whether or not the voter supports the proposal\n        bool support;\n        /// @notice The number of votes the voter had, which were cast\n        uint256 votes;\n    }\n\n    /// @notice Possible states that a proposal may be in\n    enum ProposalState {\n        Pending,\n        Active,\n        Canceled,\n        Defeated,\n        Succeeded,\n        Queued,\n        Expired,\n        Executed\n    }\n\n    /// @notice The official record of all proposals ever proposed\n    mapping(uint256 => Proposal) public proposals;\n\n    /// @notice The latest proposal for each proposer\n    mapping(address => uint256) public latestProposalIds;\n\n    /// @notice The EIP-712 typehash for the contract's domain\n    bytes32 public constant DOMAIN_TYPEHASH = keccak256(\n        \"EIP712Domain(string name,uint256 chainId,address verifyingContract)\"\n    );\n\n    /// @notice The EIP-712 typehash for the ballot struct used by the contract\n    bytes32 public constant BALLOT_TYPEHASH = keccak256(\n        \"Ballot(uint256 proposalId,bool support)\"\n    );\n\n    /// @notice An event emitted when a new proposal is created\n    event ProposalCreated(\n        uint256 id,\n        address proposer,\n        address[] targets,\n        uint256[] values,\n        string[] signatures,\n        bytes[] calldatas,\n        uint256 startBlock,\n        uint256 endBlock,\n        string description\n    );\n\n    /// @notice An event emitted when a vote has been cast on a proposal\n    event VoteCast(\n        address voter,\n        uint256 proposalId,\n        bool support,\n        uint256 votes\n    );\n\n    /// @notice An event emitted when a proposal has been canceled\n    event ProposalCanceled(uint256 id);\n\n    /// @notice An event emitted when a proposal has been queued in the Timelock\n    event ProposalQueued(uint256 id, uint256 eta);\n\n    /// @notice An event emitted when a proposal has been executed in the Timelock\n    event ProposalExecuted(uint256 id);\n\n    function initialize(\n        address _timelock,\n        address _zora,\n        address _guardian\n    ) public initializer {\n        timelock = TimelockInterface(_timelock);\n        zora = Zoracles(_zora);\n        guardian = _guardian;\n    }\n\n    function propose(\n        address[] memory targets,\n        uint256[] memory values,\n        string[] memory signatures,\n        bytes[] memory calldatas,\n        string memory description\n    ) public returns (uint256) {\n        require(\n            zora.getPriorVotes(msg.sender, sub256(block.number, 1)) >\n                proposalThreshold(),\n            \"GovernorAlpha::propose: proposer votes below proposal threshold\"\n        );\n        require(\n            targets.length == values.length &&\n                targets.length == signatures.length &&\n                targets.length == calldatas.length,\n            \"GovernorAlpha::propose: proposal function information arity mismatch\"\n        );\n        require(\n            targets.length != 0,\n            \"GovernorAlpha::propose: must provide actions\"\n        );\n        require(\n            targets.length <= proposalMaxOperations(),\n            \"GovernorAlpha::propose: too many actions\"\n        );\n\n        uint256 latestProposalId = latestProposalIds[msg.sender];\n        if (latestProposalId != 0) {\n            ProposalState proposersLatestProposalState = state(\n                latestProposalId\n            );\n            require(\n                proposersLatestProposalState != ProposalState.Active,\n                \"GovernorAlpha::propose: one live proposal per proposer, found an already active proposal\"\n            );\n            require(\n                proposersLatestProposalState != ProposalState.Pending,\n                \"GovernorAlpha::propose: one live proposal per proposer, found an already pending proposal\"\n            );\n        }\n\n        uint256 startBlock = add256(block.number, votingDelay());\n        uint256 endBlock = add256(startBlock, votingPeriod());\n\n        proposalCount++;\n        Proposal memory newProposal = Proposal({\n            id: proposalCount,\n            proposer: msg.sender,\n            eta: 0,\n            targets: targets,\n            values: values,\n            signatures: signatures,\n            calldatas: calldatas,\n            startBlock: startBlock,\n            endBlock: endBlock,\n            forVotes: 0,\n            againstVotes: 0,\n            canceled: false,\n            executed: false\n        });\n\n        proposals[newProposal.id] = newProposal;\n        latestProposalIds[newProposal.proposer] = newProposal.id;\n\n        emit ProposalCreated(\n            newProposal.id,\n            msg.sender,\n            targets,\n            values,\n            signatures,\n            calldatas,\n            startBlock,\n            endBlock,\n            description\n        );\n        return newProposal.id;\n    }\n\n    function queue(uint256 proposalId) public {\n        require(\n            state(proposalId) == ProposalState.Succeeded,\n            \"GovernorAlpha::queue: proposal can only be queued if it is succeeded\"\n        );\n        Proposal storage proposal = proposals[proposalId];\n        uint256 eta = add256(block.timestamp, timelock.delay());\n        for (uint256 i = 0; i < proposal.targets.length; i++) {\n            _queueOrRevert(\n                proposal.targets[i],\n                proposal.values[i],\n                proposal.signatures[i],\n                proposal.calldatas[i],\n                eta\n            );\n        }\n        proposal.eta = eta;\n        emit ProposalQueued(proposalId, eta);\n    }\n\n    function _queueOrRevert(\n        address target,\n        uint256 value,\n        string memory signature,\n        bytes memory data,\n        uint256 eta\n    ) internal {\n        require(\n            !timelock.queuedTransactions(\n                keccak256(abi.encode(target, value, signature, data, eta))\n            ),\n            \"GovernorAlpha::_queueOrRevert: proposal action already queued at eta\"\n        );\n        timelock.queueTransaction(target, value, signature, data, eta);\n    }\n\n    function execute(uint256 proposalId) public payable {\n        require(\n            state(proposalId) == ProposalState.Queued,\n            \"GovernorAlpha::execute: proposal can only be executed if it is queued\"\n        );\n        Proposal storage proposal = proposals[proposalId];\n        proposal.executed = true;\n        for (uint256 i = 0; i < proposal.targets.length; i++) {\n            timelock.executeTransaction.value(proposal.values[i])(\n                proposal.targets[i],\n                proposal.values[i],\n                proposal.signatures[i],\n                proposal.calldatas[i],\n                proposal.eta\n            );\n        }\n        emit ProposalExecuted(proposalId);\n    }\n\n    function cancel(uint256 proposalId) public {\n        ProposalState state = state(proposalId);\n        require(\n            state != ProposalState.Executed,\n            \"GovernorAlpha::cancel: cannot cancel executed proposal\"\n        );\n\n        Proposal storage proposal = proposals[proposalId];\n        require(\n            msg.sender == guardian ||\n                zora.getPriorVotes(proposal.proposer, sub256(block.number, 1)) <\n                proposalThreshold(),\n            \"GovernorAlpha::cancel: proposer above threshold\"\n        );\n\n        proposal.canceled = true;\n        for (uint256 i = 0; i < proposal.targets.length; i++) {\n            timelock.cancelTransaction(\n                proposal.targets[i],\n                proposal.values[i],\n                proposal.signatures[i],\n                proposal.calldatas[i],\n                proposal.eta\n            );\n        }\n\n        emit ProposalCanceled(proposalId);\n    }\n\n    function getActions(uint256 proposalId)\n        public\n        view\n        returns (\n            address[] memory targets,\n            uint256[] memory values,\n            string[] memory signatures,\n            bytes[] memory calldatas\n        )\n    {\n        Proposal storage p = proposals[proposalId];\n        return (p.targets, p.values, p.signatures, p.calldatas);\n    }\n\n    function getReceipt(uint256 proposalId, address voter)\n        public\n        view\n        returns (Receipt memory)\n    {\n        return proposals[proposalId].receipts[voter];\n    }\n\n    function state(uint256 proposalId) public view returns (ProposalState) {\n        require(\n            proposalCount >= proposalId && proposalId > 0,\n            \"GovernorAlpha::state: invalid proposal id\"\n        );\n        Proposal storage proposal = proposals[proposalId];\n        if (proposal.canceled) {\n            return ProposalState.Canceled;\n        } else if (block.number <= proposal.startBlock) {\n            return ProposalState.Pending;\n        } else if (block.number <= proposal.endBlock) {\n            return ProposalState.Active;\n        } else if (\n            proposal.forVotes <= proposal.againstVotes ||\n            proposal.forVotes < quorumVotes()\n        ) {\n            return ProposalState.Defeated;\n        } else if (proposal.eta == 0) {\n            return ProposalState.Succeeded;\n        } else if (proposal.executed) {\n            return ProposalState.Executed;\n        } else if (\n            block.timestamp >= add256(proposal.eta, timelock.GRACE_PERIOD())\n        ) {\n            return ProposalState.Expired;\n        } else {\n            return ProposalState.Queued;\n        }\n    }\n\n    function castVote(uint256 proposalId, bool support) public {\n        return _castVote(msg.sender, proposalId, support);\n    }\n\n    function castVoteBySig(\n        uint256 proposalId,\n        bool support,\n        uint8 v,\n        bytes32 r,\n        bytes32 s\n    ) public {\n        bytes32 domainSeparator = keccak256(\n            abi.encode(\n                DOMAIN_TYPEHASH,\n                keccak256(bytes(name)),\n                getChainId(),\n                address(this)\n            )\n        );\n        bytes32 structHash = keccak256(\n            abi.encode(BALLOT_TYPEHASH, proposalId, support)\n        );\n        bytes32 digest = keccak256(\n            abi.encodePacked(\"\\x19\\x01\", domainSeparator, structHash)\n        );\n        address signatory = ecrecover(digest, v, r, s);\n        require(\n            signatory != address(0),\n            \"GovernorAlpha::castVoteBySig: invalid signature\"\n        );\n        return _castVote(signatory, proposalId, support);\n    }\n\n    function _castVote(\n        address voter,\n        uint256 proposalId,\n        bool support\n    ) internal {\n        require(\n            state(proposalId) == ProposalState.Active,\n            \"GovernorAlpha::_castVote: voting is closed\"\n        );\n        Proposal storage proposal = proposals[proposalId];\n        Receipt storage receipt = proposal.receipts[voter];\n        require(\n            !receipt.hasVoted,\n            \"GovernorAlpha::_castVote: voter already voted\"\n        );\n        uint256 votes = zora.getPriorVotes(voter, proposal.startBlock);\n\n        if (support) {\n            proposal.forVotes = add256(proposal.forVotes, votes);\n        } else {\n            proposal.againstVotes = add256(proposal.againstVotes, votes);\n        }\n\n        receipt.hasVoted = true;\n        receipt.support = support;\n        receipt.votes = votes;\n\n        emit VoteCast(voter, proposalId, support, votes);\n    }\n\n    function __acceptAdmin() public {\n        require(\n            msg.sender == guardian,\n            \"GovernorAlpha::__acceptAdmin: sender must be gov guardian\"\n        );\n        timelock.acceptAdmin();\n    }\n\n    function __abdicate() public {\n        require(\n            msg.sender == guardian,\n            \"GovernorAlpha::__abdicate: sender must be gov guardian\"\n        );\n        guardian = address(0);\n    }\n\n    function __queueSetTimelockPendingAdmin(\n        address newPendingAdmin,\n        uint256 eta\n    ) public {\n        require(\n            msg.sender == guardian,\n            \"GovernorAlpha::__queueSetTimelockPendingAdmin: sender must be gov guardian\"\n        );\n        timelock.queueTransaction(\n            address(timelock),\n            0,\n            \"setPendingAdmin(address)\",\n            abi.encode(newPendingAdmin),\n            eta\n        );\n    }\n\n    function __executeSetTimelockPendingAdmin(\n        address newPendingAdmin,\n        uint256 eta\n    ) public {\n        require(\n            msg.sender == guardian,\n            \"GovernorAlpha::__executeSetTimelockPendingAdmin: sender must be gov guardian\"\n        );\n        timelock.executeTransaction(\n            address(timelock),\n            0,\n            \"setPendingAdmin(address)\",\n            abi.encode(newPendingAdmin),\n            eta\n        );\n    }\n\n    function add256(uint256 a, uint256 b) internal pure returns (uint256) {\n        uint256 c = a + b;\n        require(c >= a, \"addition overflow\");\n        return c;\n    }\n\n    function sub256(uint256 a, uint256 b) internal pure returns (uint256) {\n        require(b <= a, \"subtraction underflow\");\n        return a - b;\n    }\n\n    function getChainId() internal pure returns (uint256) {\n        uint256 chainId;\n        assembly {\n            chainId := chainid()\n        }\n        return chainId;\n    }\n}\n\ninterface TimelockInterface {\n    function delay() external view returns (uint256);\n\n    function GRACE_PERIOD() external view returns (uint256);\n\n    function acceptAdmin() external;\n\n    function queuedTransactions(bytes32 hash) external view returns (bool);\n\n    function queueTransaction(\n        address target,\n        uint256 value,\n        string calldata signature,\n        bytes calldata data,\n        uint256 eta\n    ) external returns (bytes32);\n\n    function cancelTransaction(\n        address target,\n        uint256 value,\n        string calldata signature,\n        bytes calldata data,\n        uint256 eta\n    ) external;\n\n    function executeTransaction(\n        address target,\n        uint256 value,\n        string calldata signature,\n        bytes calldata data,\n        uint256 eta\n    ) external payable returns (bytes memory);\n}\n",
-  "sourcePath": "/Users/Sheed/Desktop/Zora2/migration/contracts/Governance.sol",
+  "sourcePath": "/home/prince/zoracle/zoracles/contracts/Governance.sol",
   "ast": {
-    "absolutePath": "/Users/Sheed/Desktop/Zora2/migration/contracts/Governance.sol",
+    "absolutePath": "/home/prince/zoracle/zoracles/contracts/Governance.sol",
     "exportedSymbols": {
       "GovernorAlpha": [
         1224
@@ -207,12 +207,12 @@
         "src": "56:33:0"
       },
       {
-        "absolutePath": "/Users/Sheed/Desktop/Zora2/migration/contracts/Zoracles.sol",
+        "absolutePath": "/home/prince/zoracle/zoracles/contracts/Zoracles.sol",
         "file": "./Zoracles.sol",
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 1289,
-        "sourceUnit": 2502,
+        "sourceUnit": 2831,
         "src": "91:24:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -223,7 +223,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 1289,
-        "sourceUnit": 2944,
+        "sourceUnit": 3351,
         "src": "116:69:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -238,10 +238,10 @@
               "id": 5,
               "name": "Initializable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2943,
+              "referencedDeclaration": 3350,
               "src": "213:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Initializable_$2943",
+                "typeIdentifier": "t_contract$_Initializable_$3350",
                 "typeString": "contract Initializable"
               }
             },
@@ -251,7 +251,7 @@
           }
         ],
         "contractDependencies": [
-          2943
+          3350
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -259,7 +259,7 @@
         "id": 1224,
         "linearizedBaseContracts": [
           1224,
-          2943
+          3350
         ],
         "name": "GovernorAlpha",
         "nodeType": "ContractDefinition",
@@ -348,7 +348,7 @@
                           "referencedDeclaration": 69,
                           "src": "539:4:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Zoracles_$2501",
+                            "typeIdentifier": "t_contract$_Zoracles_$2830",
                             "typeString": "contract Zoracles"
                           }
                         },
@@ -359,7 +359,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3059,
+                        "referencedDeclaration": 3466,
                         "src": "539:16:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -507,7 +507,7 @@
                           "referencedDeclaration": 69,
                           "src": "761:4:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Zoracles_$2501",
+                            "typeIdentifier": "t_contract$_Zoracles_$2830",
                             "typeString": "contract Zoracles"
                           }
                         },
@@ -518,7 +518,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3059,
+                        "referencedDeclaration": 3466,
                         "src": "761:16:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -969,7 +969,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Zoracles_$2501",
+              "typeIdentifier": "t_contract$_Zoracles_$2830",
               "typeString": "contract Zoracles"
             },
             "typeName": {
@@ -977,10 +977,10 @@
               "id": 68,
               "name": "Zoracles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2501,
+              "referencedDeclaration": 2830,
               "src": "1579:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Zoracles_$2501",
+                "typeIdentifier": "t_contract$_Zoracles_$2830",
                 "typeString": "contract Zoracles"
               }
             },
@@ -2706,7 +2706,7 @@
                       "referencedDeclaration": 69,
                       "src": "5551:4:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Zoracles_$2501",
+                        "typeIdentifier": "t_contract$_Zoracles_$2830",
                         "typeString": "contract Zoracles"
                       }
                     },
@@ -2740,10 +2740,10 @@
                         "name": "Zoracles",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2501,
+                        "referencedDeclaration": 2830,
                         "src": "5558:8:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Zoracles_$2501_$",
+                          "typeIdentifier": "t_type$_t_contract$_Zoracles_$2830_$",
                           "typeString": "type(contract Zoracles)"
                         }
                       },
@@ -2758,13 +2758,13 @@
                       "src": "5558:15:0",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Zoracles_$2501",
+                        "typeIdentifier": "t_contract$_Zoracles_$2830",
                         "typeString": "contract Zoracles"
                       }
                     },
                     "src": "5551:22:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Zoracles_$2501",
+                      "typeIdentifier": "t_contract$_Zoracles_$2830",
                       "typeString": "contract Zoracles"
                     }
                   },
@@ -2835,7 +2835,7 @@
                   "name": "initializer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2920,
+                  "referencedDeclaration": 3327,
                   "src": "5480:11:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -3117,7 +3117,7 @@
                               "referencedDeclaration": 69,
                               "src": "5867:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Zoracles_$2501",
+                                "typeIdentifier": "t_contract$_Zoracles_$2830",
                                 "typeString": "contract Zoracles"
                               }
                             },
@@ -3128,7 +3128,7 @@
                             "lValueRequested": false,
                             "memberName": "getPriorVotes",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 2246,
+                            "referencedDeclaration": 2575,
                             "src": "5867:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -8968,7 +8968,7 @@
                                 "referencedDeclaration": 69,
                                 "src": "10525:4:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Zoracles_$2501",
+                                  "typeIdentifier": "t_contract$_Zoracles_$2830",
                                   "typeString": "contract Zoracles"
                                 }
                               },
@@ -8979,7 +8979,7 @@
                               "lValueRequested": false,
                               "memberName": "getPriorVotes",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 2246,
+                              "referencedDeclaration": 2575,
                               "src": "10525:18:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -13817,7 +13817,7 @@
                         "referencedDeclaration": 69,
                         "src": "14286:4:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Zoracles_$2501",
+                          "typeIdentifier": "t_contract$_Zoracles_$2830",
                           "typeString": "contract Zoracles"
                         }
                       },
@@ -13828,7 +13828,7 @@
                       "lValueRequested": false,
                       "memberName": "getPriorVotes",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2246,
+                      "referencedDeclaration": 2575,
                       "src": "14286:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -17588,7 +17588,7 @@
     "src": "32:17369:0"
   },
   "legacyAST": {
-    "absolutePath": "/Users/Sheed/Desktop/Zora2/migration/contracts/Governance.sol",
+    "absolutePath": "/home/prince/zoracle/zoracles/contracts/Governance.sol",
     "exportedSymbols": {
       "GovernorAlpha": [
         1224
@@ -17621,12 +17621,12 @@
         "src": "56:33:0"
       },
       {
-        "absolutePath": "/Users/Sheed/Desktop/Zora2/migration/contracts/Zoracles.sol",
+        "absolutePath": "/home/prince/zoracle/zoracles/contracts/Zoracles.sol",
         "file": "./Zoracles.sol",
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 1289,
-        "sourceUnit": 2502,
+        "sourceUnit": 2831,
         "src": "91:24:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -17637,7 +17637,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 1289,
-        "sourceUnit": 2944,
+        "sourceUnit": 3351,
         "src": "116:69:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -17652,10 +17652,10 @@
               "id": 5,
               "name": "Initializable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2943,
+              "referencedDeclaration": 3350,
               "src": "213:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Initializable_$2943",
+                "typeIdentifier": "t_contract$_Initializable_$3350",
                 "typeString": "contract Initializable"
               }
             },
@@ -17665,7 +17665,7 @@
           }
         ],
         "contractDependencies": [
-          2943
+          3350
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -17673,7 +17673,7 @@
         "id": 1224,
         "linearizedBaseContracts": [
           1224,
-          2943
+          3350
         ],
         "name": "GovernorAlpha",
         "nodeType": "ContractDefinition",
@@ -17762,7 +17762,7 @@
                           "referencedDeclaration": 69,
                           "src": "539:4:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Zoracles_$2501",
+                            "typeIdentifier": "t_contract$_Zoracles_$2830",
                             "typeString": "contract Zoracles"
                           }
                         },
@@ -17773,7 +17773,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3059,
+                        "referencedDeclaration": 3466,
                         "src": "539:16:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -17921,7 +17921,7 @@
                           "referencedDeclaration": 69,
                           "src": "761:4:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Zoracles_$2501",
+                            "typeIdentifier": "t_contract$_Zoracles_$2830",
                             "typeString": "contract Zoracles"
                           }
                         },
@@ -17932,7 +17932,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3059,
+                        "referencedDeclaration": 3466,
                         "src": "761:16:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -18383,7 +18383,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Zoracles_$2501",
+              "typeIdentifier": "t_contract$_Zoracles_$2830",
               "typeString": "contract Zoracles"
             },
             "typeName": {
@@ -18391,10 +18391,10 @@
               "id": 68,
               "name": "Zoracles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2501,
+              "referencedDeclaration": 2830,
               "src": "1579:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Zoracles_$2501",
+                "typeIdentifier": "t_contract$_Zoracles_$2830",
                 "typeString": "contract Zoracles"
               }
             },
@@ -20120,7 +20120,7 @@
                       "referencedDeclaration": 69,
                       "src": "5551:4:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Zoracles_$2501",
+                        "typeIdentifier": "t_contract$_Zoracles_$2830",
                         "typeString": "contract Zoracles"
                       }
                     },
@@ -20154,10 +20154,10 @@
                         "name": "Zoracles",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2501,
+                        "referencedDeclaration": 2830,
                         "src": "5558:8:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Zoracles_$2501_$",
+                          "typeIdentifier": "t_type$_t_contract$_Zoracles_$2830_$",
                           "typeString": "type(contract Zoracles)"
                         }
                       },
@@ -20172,13 +20172,13 @@
                       "src": "5558:15:0",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Zoracles_$2501",
+                        "typeIdentifier": "t_contract$_Zoracles_$2830",
                         "typeString": "contract Zoracles"
                       }
                     },
                     "src": "5551:22:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Zoracles_$2501",
+                      "typeIdentifier": "t_contract$_Zoracles_$2830",
                       "typeString": "contract Zoracles"
                     }
                   },
@@ -20249,7 +20249,7 @@
                   "name": "initializer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 2920,
+                  "referencedDeclaration": 3327,
                   "src": "5480:11:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -20531,7 +20531,7 @@
                               "referencedDeclaration": 69,
                               "src": "5867:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Zoracles_$2501",
+                                "typeIdentifier": "t_contract$_Zoracles_$2830",
                                 "typeString": "contract Zoracles"
                               }
                             },
@@ -20542,7 +20542,7 @@
                             "lValueRequested": false,
                             "memberName": "getPriorVotes",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 2246,
+                            "referencedDeclaration": 2575,
                             "src": "5867:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -26382,7 +26382,7 @@
                                 "referencedDeclaration": 69,
                                 "src": "10525:4:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Zoracles_$2501",
+                                  "typeIdentifier": "t_contract$_Zoracles_$2830",
                                   "typeString": "contract Zoracles"
                                 }
                               },
@@ -26393,7 +26393,7 @@
                               "lValueRequested": false,
                               "memberName": "getPriorVotes",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 2246,
+                              "referencedDeclaration": 2575,
                               "src": "10525:18:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -31231,7 +31231,7 @@
                         "referencedDeclaration": 69,
                         "src": "14286:4:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Zoracles_$2501",
+                          "typeIdentifier": "t_contract$_Zoracles_$2830",
                           "typeString": "contract Zoracles"
                         }
                       },
@@ -31242,7 +31242,7 @@
                       "lValueRequested": false,
                       "memberName": "getPriorVotes",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2246,
+                      "referencedDeclaration": 2575,
                       "src": "14286:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -35007,7 +35007,7 @@
   },
   "networks": {},
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-11-26T15:46:49.392Z",
+  "updatedAt": "2020-12-12T10:35:48.866Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

@@ -11,6 +11,7 @@
 1. **Zoracle Token**: [0x5f994DD72D2Dd56E8F4895b244AB5Ec21C2893ed](https://ropsten.etherscan.io/address/0x5f994DD72D2Dd56E8F4895b244AB5Ec21C2893ed)<br/>
 2. **Governance**: [0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28](https://ropsten.etherscan.io/address/0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28)<br/>
 3. **Timelock**: [0x700FdFd395410826aC4e8f8f83534410fC1eC0F8](https://ropsten.etherscan.io/address/0x700FdFd395410826aC4e8f8f83534410fC1eC0F8)<br/>
+4. **Vesting**: [0xB04A11F328dAEdBB25a13486e5bC3E31E29De3FA](https://ropsten.etherscan.io/address/0xB04A11F328dAEdBB25a13486e5bC3E31E29De3FA)<br/>
 
 # Steps to deploy
 
@@ -30,3 +31,6 @@
 7. Then, Run command `npm run deploy:governance --network mainnet` to deploy Governance contract and transferring ownerships.
 
 **NOTE**: The step 5, 6 and 7 can take some time so, keep patience. Also, you can deploy all contracts using single command `npm run deploy --network mainnet` but, that is not recommended because if one will fail any state will not be saved.
+
+If you want to deploy Vesting Contract then you need to run command:
+*Command*: `npm run deploy:vesting --network mainnet`

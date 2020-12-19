@@ -57,14 +57,14 @@ contract Vesting {
     /**
      * @return the token being held.
      */
-    function token() public view returns (IERC20) {
+    function token() external view returns (IERC20) {
         return _token;
     }
 
     /**
      * @return the total token stored in the contract
      */
-    function totalTokensVested() public view returns (uint256) {
+    function totalTokensVested() external view returns (uint256) {
         return _token.balanceOf(address(this));
     }
 
@@ -79,7 +79,7 @@ contract Vesting {
         uint256 amount,
         uint256 cliffPeriod,
         uint256 vestingPeriod
-    ) public returns (bool success) {
+    ) external returns (bool success) {
         VestingStruct memory result = addressInfo[msg.sender];
 
         require(
@@ -115,7 +115,7 @@ contract Vesting {
     /**
      * @notice Transfers tokens held by timelock to beneficiary.
      */
-    function withdraw() public virtual {
+    function withdraw() external virtual {
         VestingStruct memory result = addressInfo[msg.sender];
 
         require(

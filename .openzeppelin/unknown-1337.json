@@ -2,8 +2,8 @@
   "manifestVersion": "3.1",
   "impls": {
     "23613ccea5ee63a0655647191b015affcfbd9694ea1783d51a1c53866b707700": {
-      "address": "0x2DcDC6b5a057130e1c68463EeB3Dd8A586bCae77",
-      "txHash": "0x5a0449db121b535d9aad2a2be01defcadd82b18f74b87fd775b454015f7a18d8",
+      "address": "0x8CdaF0CD259887258Bc13a92C0a6dA92698644C0",
+      "txHash": "0xf2dc62299d1936e85739438e63b4a463d3b06bcec41568ce00f28aff9d33d5d2",
       "layout": {
         "storage": [
           {
@@ -87,7 +87,7 @@
           {
             "contract": "Zoracles",
             "label": "checkpoints",
-            "type": "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)1909_storage))",
+            "type": "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)2238_storage))",
             "src": "Zoracles.sol:45"
           },
           {
@@ -107,7 +107,7 @@
           "t_mapping(t_address,t_address)": {
             "label": "mapping(address => address)"
           },
-          "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)1909_storage))": {
+          "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)2238_storage))": {
             "label": "mapping(address => mapping(uint32 => struct Zoracles.Checkpoint))"
           },
           "t_mapping(t_address,t_uint32)": {
@@ -147,8 +147,8 @@
       }
     },
     "4bbae1383895e3fa466218a104f2083ddc908c9cf31188b6c286b067e5f4afc0": {
-      "address": "0x7c6E017007c0923c8D00147b3011DF75eeb80E0b",
-      "txHash": "0xbd5e4f9786438fb47a23cb7a7b694aa4c7f97da8a4760353b24fecdd341d09d5",
+      "address": "0xf25186B5081Ff5cE73482AD761DB0eB0d25abfBF",
+      "txHash": "0x35e5c876a48d0da1756504b40d8d963bc3ac3bfff492705b3c140dddcf6629de",
       "layout": {
         "storage": [
           {
@@ -210,88 +210,9 @@
         }
       }
     },
-    "e96539b4b836dbfa018e76dad234871691d1a860ccd0429869d11a08a7e40932": {
-      "address": "0x9FBDa871d559710256a2502A2517b794B482Db40",
-      "txHash": "0x6daf2891192615e2d3ac184f3b8acb8124706c02afdcb3f3d4b38d6b1a06595c",
-      "layout": {
-        "storage": [
-          {
-            "contract": "Initializable",
-            "label": "_initialized",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:23"
-          },
-          {
-            "contract": "Initializable",
-            "label": "_initializing",
-            "type": "t_bool",
-            "src": "../@openzeppelin/contracts-upgradeable/proxy/Initializable.sol:28"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "timelock",
-            "type": "t_contract(TimelockInterface)1289",
-            "src": "Governance.sol:38"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "zora",
-            "type": "t_contract(Zoracles)2502",
-            "src": "Governance.sol:42"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "guardian",
-            "type": "t_address",
-            "src": "Governance.sol:45"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "proposalCount",
-            "type": "t_uint256",
-            "src": "Governance.sol:48"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "proposals",
-            "type": "t_mapping(t_uint256,t_struct(Proposal)124_storage)",
-            "src": "Governance.sol:104"
-          },
-          {
-            "contract": "GovernorAlpha",
-            "label": "latestProposalIds",
-            "type": "t_mapping(t_address,t_uint256)",
-            "src": "Governance.sol:107"
-          }
-        ],
-        "types": {
-          "t_contract(TimelockInterface)1289": {
-            "label": "contract TimelockInterface"
-          },
-          "t_contract(Zoracles)2502": {
-            "label": "contract Zoracles"
-          },
-          "t_address": {
-            "label": "address"
-          },
-          "t_uint256": {
-            "label": "uint256"
-          },
-          "t_mapping(t_uint256,t_struct(Proposal)124_storage)": {
-            "label": "mapping(uint256 => struct GovernorAlpha.Proposal)"
-          },
-          "t_mapping(t_address,t_uint256)": {
-            "label": "mapping(address => uint256)"
-          },
-          "t_bool": {
-            "label": "bool"
-          }
-        }
-      }
-    },
     "16466a9545047c908f8c8f11938b4685c7b569f5d4a85049dbcbce15db6646a6": {
-      "address": "0x51b52ABb0876D784f8139cf571a8EA23cCc5c951",
-      "txHash": "0x1fe7aa2e8e0f6c0054443c9c67e96d06c21683e6165c7d7cb3a474a8bc06ead3",
+      "address": "0x9FBDa871d559710256a2502A2517b794B482Db40",
+      "txHash": "0x22a221b20fdcd5f217df0334c3cc59de246cf9591cc008924c9486f9b1e51937",
       "layout": {
         "storage": [
           {
@@ -315,7 +236,7 @@
           {
             "contract": "GovernorAlpha",
             "label": "zora",
-            "type": "t_contract(Zoracles)2501",
+            "type": "t_contract(Zoracles)2830",
             "src": "Governance.sol:42"
           },
           {
@@ -347,7 +268,7 @@
           "t_contract(TimelockInterface)1288": {
             "label": "contract TimelockInterface"
           },
-          "t_contract(Zoracles)2501": {
+          "t_contract(Zoracles)2830": {
             "label": "contract Zoracles"
           },
           "t_address": {
@@ -370,7 +291,7 @@
     }
   },
   "admin": {
-    "address": "0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3",
-    "txHash": "0x684c884588455408d02e2db20dcfbd4e4e26d0381a97a8a2ecf1552e7ffb1a25"
+    "address": "0xF12b5dd4EAD5F743C6BaA640B0216200e89B60Da",
+    "txHash": "0xc85b34adddbb2bff11282d218531f3bb31e42ca6df34699e2c3940bbee449556"
   }
 }

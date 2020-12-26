@@ -157,18 +157,24 @@ contract Vesting {
         VestingStruct memory result = addressInfo[beneficiary];
 
         if (result.vestedTokens > 0) {
-            uint256 vestingEndTime = (result.vestingStartTime +
-                (result.vestingPeriod * 1 days));
+            uint256 vestingEndTime =
+                (result.vestingStartTime + (result.vestingPeriod * 1 days));
 
-            uint256 totalDays = ((
-                block.timestamp > vestingEndTime
-                    ? vestingEndTime
-                    : block.timestamp
-            ) - result.vestingStartTime) / 1 days;
+            if (block.timestamp >= vestingEndTime) {
+                return
+                    result.vestedTokens - tokensAlreadyWithdrawn[beneficiary];
+            } else {
+                uint256 totalDays =
+                    ((
+                        block.timestamp > vestingEndTime
+                            ? vestingEndTime
+                            : block.timestamp
+                    ) - result.vestingStartTime) / 1 days;
 
-            return
-                (totalDays * result.withdrawalPerDay) -
-                tokensAlreadyWithdrawn[beneficiary];
+                return
+                    (totalDays * result.withdrawalPerDay) -
+                    tokensAlreadyWithdrawn[beneficiary];
+            }
         } else {
             return 0;
         }

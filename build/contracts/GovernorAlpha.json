@@ -716,7 +716,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 1289,
-        "sourceUnit": 2831,
+        "sourceUnit": 2845,
         "src": "91:24:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -727,7 +727,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 1289,
-        "sourceUnit": 3351,
+        "sourceUnit": 3365,
         "src": "116:69:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -742,10 +742,10 @@
               "id": 5,
               "name": "Initializable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3350,
+              "referencedDeclaration": 3364,
               "src": "213:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Initializable_$3350",
+                "typeIdentifier": "t_contract$_Initializable_$3364",
                 "typeString": "contract Initializable"
               }
             },
@@ -755,7 +755,7 @@
           }
         ],
         "contractDependencies": [
-          3350
+          3364
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -763,7 +763,7 @@
         "id": 1224,
         "linearizedBaseContracts": [
           1224,
-          3350
+          3364
         ],
         "name": "GovernorAlpha",
         "nodeType": "ContractDefinition",
@@ -852,7 +852,7 @@
                           "referencedDeclaration": 69,
                           "src": "539:4:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Zoracles_$2830",
+                            "typeIdentifier": "t_contract$_Zoracles_$2844",
                             "typeString": "contract Zoracles"
                           }
                         },
@@ -863,7 +863,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3466,
+                        "referencedDeclaration": 3480,
                         "src": "539:16:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -1011,7 +1011,7 @@
                           "referencedDeclaration": 69,
                           "src": "761:4:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Zoracles_$2830",
+                            "typeIdentifier": "t_contract$_Zoracles_$2844",
                             "typeString": "contract Zoracles"
                           }
                         },
@@ -1022,7 +1022,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3466,
+                        "referencedDeclaration": 3480,
                         "src": "761:16:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -1473,7 +1473,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Zoracles_$2830",
+              "typeIdentifier": "t_contract$_Zoracles_$2844",
               "typeString": "contract Zoracles"
             },
             "typeName": {
@@ -1481,10 +1481,10 @@
               "id": 68,
               "name": "Zoracles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2830,
+              "referencedDeclaration": 2844,
               "src": "1579:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Zoracles_$2830",
+                "typeIdentifier": "t_contract$_Zoracles_$2844",
                 "typeString": "contract Zoracles"
               }
             },
@@ -3210,7 +3210,7 @@
                       "referencedDeclaration": 69,
                       "src": "5551:4:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Zoracles_$2830",
+                        "typeIdentifier": "t_contract$_Zoracles_$2844",
                         "typeString": "contract Zoracles"
                       }
                     },
@@ -3244,10 +3244,10 @@
                         "name": "Zoracles",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2830,
+                        "referencedDeclaration": 2844,
                         "src": "5558:8:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Zoracles_$2830_$",
+                          "typeIdentifier": "t_type$_t_contract$_Zoracles_$2844_$",
                           "typeString": "type(contract Zoracles)"
                         }
                       },
@@ -3262,13 +3262,13 @@
                       "src": "5558:15:0",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Zoracles_$2830",
+                        "typeIdentifier": "t_contract$_Zoracles_$2844",
                         "typeString": "contract Zoracles"
                       }
                     },
                     "src": "5551:22:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Zoracles_$2830",
+                      "typeIdentifier": "t_contract$_Zoracles_$2844",
                       "typeString": "contract Zoracles"
                     }
                   },
@@ -3339,7 +3339,7 @@
                   "name": "initializer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3327,
+                  "referencedDeclaration": 3341,
                   "src": "5480:11:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -3621,7 +3621,7 @@
                               "referencedDeclaration": 69,
                               "src": "5867:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Zoracles_$2830",
+                                "typeIdentifier": "t_contract$_Zoracles_$2844",
                                 "typeString": "contract Zoracles"
                               }
                             },
@@ -3632,7 +3632,7 @@
                             "lValueRequested": false,
                             "memberName": "getPriorVotes",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 2575,
+                            "referencedDeclaration": 2589,
                             "src": "5867:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -9472,7 +9472,7 @@
                                 "referencedDeclaration": 69,
                                 "src": "10525:4:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Zoracles_$2830",
+                                  "typeIdentifier": "t_contract$_Zoracles_$2844",
                                   "typeString": "contract Zoracles"
                                 }
                               },
@@ -9483,7 +9483,7 @@
                               "lValueRequested": false,
                               "memberName": "getPriorVotes",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 2575,
+                              "referencedDeclaration": 2589,
                               "src": "10525:18:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -14321,7 +14321,7 @@
                         "referencedDeclaration": 69,
                         "src": "14286:4:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Zoracles_$2830",
+                          "typeIdentifier": "t_contract$_Zoracles_$2844",
                           "typeString": "contract Zoracles"
                         }
                       },
@@ -14332,7 +14332,7 @@
                       "lValueRequested": false,
                       "memberName": "getPriorVotes",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2575,
+                      "referencedDeclaration": 2589,
                       "src": "14286:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -18130,7 +18130,7 @@
         "id": 3,
         "nodeType": "ImportDirective",
         "scope": 1289,
-        "sourceUnit": 2831,
+        "sourceUnit": 2845,
         "src": "91:24:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -18141,7 +18141,7 @@
         "id": 4,
         "nodeType": "ImportDirective",
         "scope": 1289,
-        "sourceUnit": 3351,
+        "sourceUnit": 3365,
         "src": "116:69:0",
         "symbolAliases": [],
         "unitAlias": ""
@@ -18156,10 +18156,10 @@
               "id": 5,
               "name": "Initializable",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 3350,
+              "referencedDeclaration": 3364,
               "src": "213:13:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Initializable_$3350",
+                "typeIdentifier": "t_contract$_Initializable_$3364",
                 "typeString": "contract Initializable"
               }
             },
@@ -18169,7 +18169,7 @@
           }
         ],
         "contractDependencies": [
-          3350
+          3364
         ],
         "contractKind": "contract",
         "documentation": null,
@@ -18177,7 +18177,7 @@
         "id": 1224,
         "linearizedBaseContracts": [
           1224,
-          3350
+          3364
         ],
         "name": "GovernorAlpha",
         "nodeType": "ContractDefinition",
@@ -18266,7 +18266,7 @@
                           "referencedDeclaration": 69,
                           "src": "539:4:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Zoracles_$2830",
+                            "typeIdentifier": "t_contract$_Zoracles_$2844",
                             "typeString": "contract Zoracles"
                           }
                         },
@@ -18277,7 +18277,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3466,
+                        "referencedDeclaration": 3480,
                         "src": "539:16:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -18425,7 +18425,7 @@
                           "referencedDeclaration": 69,
                           "src": "761:4:0",
                           "typeDescriptions": {
-                            "typeIdentifier": "t_contract$_Zoracles_$2830",
+                            "typeIdentifier": "t_contract$_Zoracles_$2844",
                             "typeString": "contract Zoracles"
                           }
                         },
@@ -18436,7 +18436,7 @@
                         "lValueRequested": false,
                         "memberName": "totalSupply",
                         "nodeType": "MemberAccess",
-                        "referencedDeclaration": 3466,
+                        "referencedDeclaration": 3480,
                         "src": "761:16:0",
                         "typeDescriptions": {
                           "typeIdentifier": "t_function_external_view$__$returns$_t_uint256_$",
@@ -18887,7 +18887,7 @@
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
-              "typeIdentifier": "t_contract$_Zoracles_$2830",
+              "typeIdentifier": "t_contract$_Zoracles_$2844",
               "typeString": "contract Zoracles"
             },
             "typeName": {
@@ -18895,10 +18895,10 @@
               "id": 68,
               "name": "Zoracles",
               "nodeType": "UserDefinedTypeName",
-              "referencedDeclaration": 2830,
+              "referencedDeclaration": 2844,
               "src": "1579:8:0",
               "typeDescriptions": {
-                "typeIdentifier": "t_contract$_Zoracles_$2830",
+                "typeIdentifier": "t_contract$_Zoracles_$2844",
                 "typeString": "contract Zoracles"
               }
             },
@@ -20624,7 +20624,7 @@
                       "referencedDeclaration": 69,
                       "src": "5551:4:0",
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Zoracles_$2830",
+                        "typeIdentifier": "t_contract$_Zoracles_$2844",
                         "typeString": "contract Zoracles"
                       }
                     },
@@ -20658,10 +20658,10 @@
                         "name": "Zoracles",
                         "nodeType": "Identifier",
                         "overloadedDeclarations": [],
-                        "referencedDeclaration": 2830,
+                        "referencedDeclaration": 2844,
                         "src": "5558:8:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_type$_t_contract$_Zoracles_$2830_$",
+                          "typeIdentifier": "t_type$_t_contract$_Zoracles_$2844_$",
                           "typeString": "type(contract Zoracles)"
                         }
                       },
@@ -20676,13 +20676,13 @@
                       "src": "5558:15:0",
                       "tryCall": false,
                       "typeDescriptions": {
-                        "typeIdentifier": "t_contract$_Zoracles_$2830",
+                        "typeIdentifier": "t_contract$_Zoracles_$2844",
                         "typeString": "contract Zoracles"
                       }
                     },
                     "src": "5551:22:0",
                     "typeDescriptions": {
-                      "typeIdentifier": "t_contract$_Zoracles_$2830",
+                      "typeIdentifier": "t_contract$_Zoracles_$2844",
                       "typeString": "contract Zoracles"
                     }
                   },
@@ -20753,7 +20753,7 @@
                   "name": "initializer",
                   "nodeType": "Identifier",
                   "overloadedDeclarations": [],
-                  "referencedDeclaration": 3327,
+                  "referencedDeclaration": 3341,
                   "src": "5480:11:0",
                   "typeDescriptions": {
                     "typeIdentifier": "t_modifier$__$",
@@ -21035,7 +21035,7 @@
                               "referencedDeclaration": 69,
                               "src": "5867:4:0",
                               "typeDescriptions": {
-                                "typeIdentifier": "t_contract$_Zoracles_$2830",
+                                "typeIdentifier": "t_contract$_Zoracles_$2844",
                                 "typeString": "contract Zoracles"
                               }
                             },
@@ -21046,7 +21046,7 @@
                             "lValueRequested": false,
                             "memberName": "getPriorVotes",
                             "nodeType": "MemberAccess",
-                            "referencedDeclaration": 2575,
+                            "referencedDeclaration": 2589,
                             "src": "5867:18:0",
                             "typeDescriptions": {
                               "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -26886,7 +26886,7 @@
                                 "referencedDeclaration": 69,
                                 "src": "10525:4:0",
                                 "typeDescriptions": {
-                                  "typeIdentifier": "t_contract$_Zoracles_$2830",
+                                  "typeIdentifier": "t_contract$_Zoracles_$2844",
                                   "typeString": "contract Zoracles"
                                 }
                               },
@@ -26897,7 +26897,7 @@
                               "lValueRequested": false,
                               "memberName": "getPriorVotes",
                               "nodeType": "MemberAccess",
-                              "referencedDeclaration": 2575,
+                              "referencedDeclaration": 2589,
                               "src": "10525:18:0",
                               "typeDescriptions": {
                                 "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -31735,7 +31735,7 @@
                         "referencedDeclaration": 69,
                         "src": "14286:4:0",
                         "typeDescriptions": {
-                          "typeIdentifier": "t_contract$_Zoracles_$2830",
+                          "typeIdentifier": "t_contract$_Zoracles_$2844",
                           "typeString": "contract Zoracles"
                         }
                       },
@@ -31746,7 +31746,7 @@
                       "lValueRequested": false,
                       "memberName": "getPriorVotes",
                       "nodeType": "MemberAccess",
-                      "referencedDeclaration": 2575,
+                      "referencedDeclaration": 2589,
                       "src": "14286:18:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_function_external_view$_t_address_$_t_uint256_$returns$_t_uint256_$",
@@ -35800,7 +35800,7 @@
     }
   },
   "schemaVersion": "3.3.2",
-  "updatedAt": "2020-12-19T04:44:58.793Z",
+  "updatedAt": "2020-12-26T15:54:43.738Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},

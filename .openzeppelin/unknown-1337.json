@@ -87,7 +87,7 @@
           {
             "contract": "Zoracles",
             "label": "checkpoints",
-            "type": "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)2238_storage))",
+            "type": "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)2252_storage))",
             "src": "Zoracles.sol:45"
           },
           {
@@ -107,7 +107,7 @@
           "t_mapping(t_address,t_address)": {
             "label": "mapping(address => address)"
           },
-          "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)2238_storage))": {
+          "t_mapping(t_address,t_mapping(t_uint32,t_struct(Checkpoint)2252_storage))": {
             "label": "mapping(address => mapping(uint32 => struct Zoracles.Checkpoint))"
           },
           "t_mapping(t_address,t_uint32)": {
@@ -236,7 +236,7 @@
           {
             "contract": "GovernorAlpha",
             "label": "zora",
-            "type": "t_contract(Zoracles)2830",
+            "type": "t_contract(Zoracles)2844",
             "src": "Governance.sol:42"
           },
           {
@@ -268,7 +268,7 @@
           "t_contract(TimelockInterface)1288": {
             "label": "contract TimelockInterface"
           },
-          "t_contract(Zoracles)2830": {
+          "t_contract(Zoracles)2844": {
             "label": "contract Zoracles"
           },
           "t_address": {

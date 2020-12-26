@@ -13,7 +13,7 @@
 2. **Governance**: [0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28](https://ropsten.etherscan.io/address/0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28)<br/>
 3. **Timelock**: [0x700FdFd395410826aC4e8f8f83534410fC1eC0F8](https://ropsten.etherscan.io/address/0x700FdFd395410826aC4e8f8f83534410fC1eC0F8)<br/>
 4. **Proxy Admin**: [0x86adB435d802636fd2C09AD8D56d4786A2dD254e](https://ropsten.etherscan.io/address/0x86adB435d802636fd2C09AD8D56d4786A2dD254e)<br/>
-5. **Vesting**: [0x8fF05C21FBAE9B7B24D21c0Fb552F3e1DbF93182](https://ropsten.etherscan.io/address/0x8fF05C21FBAE9B7B24D21c0Fb552F3e1DbF93182)<br/>
+5. **Vesting**: [0xfa2D3C480D01BA638314EB2020c4Ace0EbA1d9E9](https://ropsten.etherscan.io/address/0xfa2D3C480D01BA638314EB2020c4Ace0EbA1d9E9)<br/>
 
 # Steps to deploy
 

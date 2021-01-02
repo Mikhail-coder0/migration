@@ -6,6 +6,7 @@
 2. **Governance**: [0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3](https://etherscan.io/address/0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3)<br/>
 3. **Timelock**: [0x1e3c7B78d1c50Eb08e1bf85622b3e1611aeA9C51](https://etherscan.io/address/0x1e3c7B78d1c50Eb08e1bf85622b3e1611aeA9C51)<br/>
 4. **Proxy Admin**: [0x0742190Ede5F556Fa10202433C3aC07Ff8d1e25B](https://etherscan.io/address/0x0742190Ede5F556Fa10202433C3aC07Ff8d1e25B)<br/>
+5. **Vesting**: [0x2369921551f2417d8d5cD4C1EDb1ac7eEe156380](https://ropsten.etherscan.io/address/0x2369921551f2417d8d5cD4C1EDb1ac7eEe156380)<br/>
 
 ### Testnet (Ropsten):
 

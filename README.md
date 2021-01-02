@@ -5,12 +5,16 @@
 1. **Zoracle Token**: [0xD8E3FB3b08eBA982F2754988d70D57eDc0055ae6](https://etherscan.io/address/0xD8E3FB3b08eBA982F2754988d70D57eDc0055ae6)<br/>
 2. **Governance**: [0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3](https://etherscan.io/address/0xA7D2556Ac0F6cdCf264Ab882e5145A850e0cf7c3)<br/>
 3. **Timelock**: [0x1e3c7B78d1c50Eb08e1bf85622b3e1611aeA9C51](https://etherscan.io/address/0x1e3c7B78d1c50Eb08e1bf85622b3e1611aeA9C51)<br/>
+4. **Proxy Admin**: [0x0742190Ede5F556Fa10202433C3aC07Ff8d1e25B](https://etherscan.io/address/0x0742190Ede5F556Fa10202433C3aC07Ff8d1e25B)<br/>
+5. **Vesting**: [0x2369921551f2417d8d5cD4C1EDb1ac7eEe156380](https://ropsten.etherscan.io/address/0x2369921551f2417d8d5cD4C1EDb1ac7eEe156380)<br/>
 
 ### Testnet (Ropsten):
 
 1. **Zoracle Token**: [0x5f994DD72D2Dd56E8F4895b244AB5Ec21C2893ed](https://ropsten.etherscan.io/address/0x5f994DD72D2Dd56E8F4895b244AB5Ec21C2893ed)<br/>
 2. **Governance**: [0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28](https://ropsten.etherscan.io/address/0x53Bf04b6d0818b0Df53494Fda641b38c2275eF28)<br/>
 3. **Timelock**: [0x700FdFd395410826aC4e8f8f83534410fC1eC0F8](https://ropsten.etherscan.io/address/0x700FdFd395410826aC4e8f8f83534410fC1eC0F8)<br/>
+4. **Proxy Admin**: [0x86adB435d802636fd2C09AD8D56d4786A2dD254e](https://ropsten.etherscan.io/address/0x86adB435d802636fd2C09AD8D56d4786A2dD254e)<br/>
+5. **Vesting**: [0xfa2D3C480D01BA638314EB2020c4Ace0EbA1d9E9](https://ropsten.etherscan.io/address/0xfa2D3C480D01BA638314EB2020c4Ace0EbA1d9E9)<br/>
 
 # Steps to deploy
 
@@ -30,3 +34,6 @@
 7. Then, Run command `npm run deploy:governance --network mainnet` to deploy Governance contract and transferring ownerships.
 
 **NOTE**: The step 5, 6 and 7 can take some time so, keep patience. Also, you can deploy all contracts using single command `npm run deploy --network mainnet` but, that is not recommended because if one will fail any state will not be saved.
+
+If you want to deploy Vesting Contract then you need to run command:
+_Command_: `npm run deploy:vesting --network mainnet`

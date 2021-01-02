@@ -1,17 +1,17 @@
 {
   "name": "zoracles",
   "version": "1.0.0",
-  "description": "",
   "main": "truffle-config.js",
   "scripts": {
     "compile": "truffle compile",
     "test": "truffle test",
-    "deploy": "truffle compile --all && truffle migrate -f 1 --to 3 --network",
+    "deploy": "truffle compile --all && truffle migrate -f 1 --to 5 --network",
     "deploy:token": "truffle compile --all && truffle migrate -f 1 --to 1 --network",
     "deploy:timelock": "truffle compile --all && truffle migrate -f 2 --to 2 --network",
-    "deploy:governance": "truffle compile --all && truffle migrate -f 3 --to 3 --network"
+    "deploy:governance": "truffle compile --all && truffle migrate -f 3 --to 3 --network",
+    "deploy:vesting": "truffle compile --all && truffle migrate -f 4 --to 4 --network"
   },
-  "author": "",
+  "author": "Zoracles",
   "license": "ISC",
   "dependencies": {
     "@openzeppelin/contracts-upgradeable": "^3.2.0",

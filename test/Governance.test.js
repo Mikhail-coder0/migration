@@ -10,7 +10,7 @@ function encodeParameters(types, values) {
 }
 
 contract('Governor', ([alice, minter, dev]) => {
-    it('should work', async () => {
+    it('should work for minting new tokens', async () => {
         this.zora = await Zoracles.new({ from: alice });
         await this.zora.initialize();
 
@@ -82,5 +82,60 @@ contract('Governor', ([alice, minter, dev]) => {
         await time.increase(time.duration.days(3));
         await this.gov.execute('1');
         assert.equal((await this.zora.totalSupply()).valueOf(), '10000000000100');
+    });
+
+    it('should work for releasing future partnership tokens', async () => {
+        this.zora = await Zoracles.new({ from: alice });
+        await this.zora.initialize();
+
+        assert.equal((await this.zora.totalSupply()).valueOf(), '10000000000000');
+        assert.equal((await this.zora.balanceOf(alice)).valueOf(), '10000000000000');
+
+        await this.zora.delegate(alice, { from: alice });
+
+        // Transfer ownership to timelock contract
+        this.timelock = await Timelock.new({ from: alice });
+        await this.timelock.initialize(alice, time.duration.days(2));
+
+        await this.zora.transfer(this.timelock.address, '1300000000000', { from: alice });
+
+        assert.equal((Number(await this.zora.balanceOf(alice)).valueOf()), '8700000000000');
+        assert.equal((Number(await this.zora.balanceOf(this.timelock.address)).valueOf()), '1300000000000');
+
+        this.gov = await GovernorAlpha.new({ from: alice });
+        await this.gov.initialize(this.timelock.address, this.zora.address, alice);
+
+        await this.timelock.setPendingAdmin(this.gov.address, { from: alice });
+        await this.gov.__acceptAdmin({ from: alice });
+
+        await this.zora.transferOwnership(this.timelock.address, { from: alice });
+        await expectRevert(
+            this.zora.mint(alice, 100, { from: alice }),
+            'Ownable: caller is not the owner',
+        );
+
+        await this.gov.propose(
+            [this.zora.address],
+            ['0'],
+            ['transfer(address,uint256)'],
+            [encodeParameters(['address', 'uint256'], [alice, 1300000000000])],
+            'Release Token From Timelock',
+            { from: alice },
+        );
+
+        await time.advanceBlock();
+        await this.gov.castVote('1', true, { from: alice });
+
+        console.log("Advancing 28800 blocks. Will take a while...");
+        for (let i = 0; i < 28800; ++i) {
+            await time.advanceBlock();
+        };
+
+        await this.gov.queue('1');
+        await time.increase(time.duration.days(3));
+        await this.gov.execute('1');
+
+        assert.equal((await this.zora.balanceOf(this.timelock.address)).valueOf(), '0');
+        assert.equal((await this.zora.balanceOf(alice)).valueOf(), '10000000000000');
     });
 });
